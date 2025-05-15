@@ -1,0 +1,58 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "csv",
+  "dataset_size": 970545464,
+  "description": "",
+  "download_checksums": {
+    "C:/Users/cjoha/OneDrive/Documentos/Maestria en Inteligencia Artificial/Semestre 3/Modelos avanzados para el procesamiento de lenguaje natural/CompetenciaNLPAvanzado/maia-pln-2025/pubmed_500K.csv": {
+      "num_bytes": 966694427,
+      "checksum": null
+    }
+  },
+  "download_size": 966694427,
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "title": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "content": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "contents": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "PMID": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 1937239891,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 970545464,
+      "num_examples": 500000,
+      "shard_lengths": [
+        260000,
+        240000
+      ],
+      "dataset_name": "csv"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

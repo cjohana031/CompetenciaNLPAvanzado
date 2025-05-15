@@ -1,0 +1,67 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "json",
+  "dataset_size": 38521448,
+  "description": "",
+  "download_checksums": {
+    "C:/Users/cjoha/OneDrive/Documentos/Maestria en Inteligencia Artificial/Semestre 3/Modelos avanzados para el procesamiento de lenguaje natural/CompetenciaNLPAvanzado/maia-pln-2025/pubmed_QA_train.json": {
+      "num_bytes": 30566435,
+      "checksum": null
+    },
+    "C:/Users/cjoha/OneDrive/Documentos/Maestria en Inteligencia Artificial/Semestre 3/Modelos avanzados para el procesamiento de lenguaje natural/CompetenciaNLPAvanzado/maia-pln-2025/pubmed_QA_eval.json": {
+      "num_bytes": 8966489,
+      "checksum": null
+    }
+  },
+  "download_size": 39532924,
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "excerpt": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "statement": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "distractors": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 78054372,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 29786186,
+      "num_examples": 16890,
+      "dataset_name": "json"
+    },
+    "eval": {
+      "name": "eval",
+      "num_bytes": 8735262,
+      "num_examples": 5000,
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
